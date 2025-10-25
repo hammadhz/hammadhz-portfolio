@@ -13,10 +13,11 @@ import {
   SiTypescript,
   SiTailwindcss,
 } from "react-icons/si";
+import { IconType } from "react-icons";
 
 const Skills = () => {
   const getIcon = (iconName: string) => {
-    const iconMap: { [key: string]: any } = {
+    const iconMap: { [key: string]: IconType } = {
       React: FaReact,
       Nextjs: SiNextdotjs,
       Redux: SiRedux,
@@ -88,7 +89,7 @@ const Skills = () => {
                   </h3>
 
                   {/* Hover effect overlay */}
-                  <div className="absolute inset-0 bg-gradient-to-br from-primary/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                  <div className="absolute inset-0 bg-linear-to-br from-primary/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                 </div>
               </Card>
             );

@@ -13,8 +13,8 @@ const Contact = () => (
         Get In Touch
       </h2>
       <p className="text-muted-foreground mb-8 text-lg">
-        Have a project in mind? Let's discuss how we can work together to bring
-        your ideas to life.
+        Have a project in mind? Let&apos;s discuss how we can work together to
+        bring your ideas to life.
       </p>
       <form className="flex flex-col gap-4">
         <Input

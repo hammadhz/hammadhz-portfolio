@@ -27,11 +27,11 @@ const About = () => (
         About Me
       </h2>
       <p className="text-base md:text-lg text-muted-foreground leading-relaxed max-w-3xl mx-auto">
-        I'm a passionate developer with a love for UI/UX and performance. My
-        focus is on building scalable, maintainable front-end applications that
-        users enjoy interacting with. I also explore Node.js and microservices
-        for backend systems, always striving to create exceptional digital
-        experiences.
+        I&apos;m a passionate developer with a love for UI/UX and performance.
+        My focus is on building scalable, maintainable front-end applications
+        that users enjoy interacting with. I also explore Node.js and
+        microservices for backend systems, always striving to create exceptional
+        digital experiences.
       </p>
     </div>
   </section>

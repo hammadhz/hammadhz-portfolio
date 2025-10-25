@@ -40,8 +40,8 @@ const Projects = () => {
             Featured Projects
           </h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            Real-world applications I've built, showcasing my development skills
-            and problem-solving abilities
+            Real-world applications I&apos;ve built, showcasing my development
+            skills and problem-solving abilities
           </p>
         </div>
 
