@@ -99,7 +99,7 @@ const Projects = () => {
                           key={featureIndex}
                           className="text-xs text-muted-foreground flex items-start gap-2"
                         >
-                          <span className="w-1 h-1 bg-primary rounded-full mt-2 flex-shrink-0"></span>
+                          <span className="w-1 h-1 bg-primary rounded-full mt-2 shrink-0"></span>
                           <span>{feature}</span>
                         </li>
                       ))}

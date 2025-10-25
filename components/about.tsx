@@ -1,5 +1,3 @@
-import AnimatedBackground from "./animated-bg";
-
 const About = () => (
   // <section
   //   id="about"
