@@ -1,11 +1,7 @@
-import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
-import "./globals.css";
-
 import { Inter } from "next/font/google";
 import { cn } from "@/lib/utils";
 import { ThemeProvider } from "@/components/theme-provider";
-import AnimatedBackground from "@/components/animated-bg";
+import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -32,7 +28,7 @@ export default function RootLayout({
           defaultTheme="system"
           storageKey="hammad-portfolio-theme"
         >
-          <div className="absolute inset-0 bg-gradient-to-br from-blue-50 via-white to-purple-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900" />
+          <div className="absolute inset-0 bg-linear-to-br from-blue-50 via-white to-purple-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900" />
           {/* <AnimatedBackground /> */}
           {children}
         </ThemeProvider>

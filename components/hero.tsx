@@ -1,7 +1,6 @@
 "use client";
 import { Button } from "@/components/ui/button";
 import { ArrowDown, Github, Linkedin, Mail } from "lucide-react";
-import AnimatedBackground from "./animated-bg";
 
 const Hero = () => {
   return (
@@ -25,13 +24,13 @@ const Hero = () => {
         {/* Greeting */}
         <div className="animate-fade-in-up mt-16 my-2">
           <span className="text-lg md:text-xl text-muted-foreground font-medium">
-            Hello, I'm
+            Hello, I&apos;m
           </span>
         </div>
 
         {/* Name */}
         <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold mb-6 animate-fade-in-up animation-delay-200">
-          <span className="bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 bg-clip-text text-transparent">
+          <span className="bg-linear-to-r from-blue-600 via-purple-600 to-pink-600 bg-clip-text text-transparent">
             Hammad Azam
           </span>
         </h1>
