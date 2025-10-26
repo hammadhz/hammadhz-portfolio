@@ -6,7 +6,7 @@ import { Calendar, MapPin, Briefcase } from "lucide-react";
 const Experience = () => (
   <section
     id="experience"
-    className="py-16 md:py-20 px-4 max-w-6xl mx-auto bg-background"
+    className="pt-4 pb-16 md:pb-20 px-4 max-w-6xl mx-auto bg-background"
   >
     <div className="animate-fade-in-up">
       <div className="text-center mb-12">

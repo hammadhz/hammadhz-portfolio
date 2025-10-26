@@ -14,6 +14,7 @@ import {
   Database,
   TrendingUp,
 } from "lucide-react";
+import Link from "next/link";
 
 const Projects = () => {
   const getCategoryIcon = (category: string) => {
@@ -32,7 +33,7 @@ const Projects = () => {
   return (
     <section
       id="projects"
-      className="py-16 md:py-20 px-4 max-w-7xl mx-auto bg-muted/30"
+      className="pt-4 pb-16 md:pb-20 px-4 max-w-7xl mx-auto bg-muted/30"
     >
       <div className="animate-fade-in-up">
         <div className="text-center mb-12">
@@ -141,7 +142,7 @@ const Projects = () => {
                   size="sm"
                   className="w-full group-hover:bg-primary group-hover:text-primary-foreground transition-all duration-300"
                 >
-                  <a
+                  <Link
                     href={project.link}
                     target="_blank"
                     rel="noopener noreferrer"
@@ -149,7 +150,7 @@ const Projects = () => {
                   >
                     View Project
                     <ExternalLink className="h-4 w-4" />
-                  </a>
+                  </Link>
                 </Button>
               </CardFooter>
             </Card>

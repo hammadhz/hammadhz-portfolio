@@ -129,7 +129,7 @@ export const projects = [
       "Admin Panel",
       "KYC",
     ],
-    link: "#",
+    link: "https://www.kasastay.com",
     status: "Live",
     features: [
       "Property listing and management",
@@ -151,7 +151,7 @@ export const projects = [
       "Data Visualization",
       "Risk Analysis",
     ],
-    link: "#",
+    link: "https://www.yourriskshield.com/",
     status: "Live",
     features: [
       "Risk shield management",
@@ -173,7 +173,7 @@ export const projects = [
       "Analytics",
       "Dashboard",
     ],
-    link: "#",
+    link: "https://resources.lovable.app/",
     status: "Live",
     features: [
       "Contractor data management",

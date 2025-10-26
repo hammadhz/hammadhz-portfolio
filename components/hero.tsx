@@ -1,6 +1,7 @@
 "use client";
 import { Button } from "@/components/ui/button";
 import { ArrowDown, Github, Linkedin, Mail } from "lucide-react";
+import Link from "next/link";
 
 const Hero = () => {
   return (
@@ -22,7 +23,7 @@ const Hero = () => {
       {/* Content */}
       <div className="relative z-10 max-w-4xl mt-16 mx-auto">
         {/* Greeting */}
-        <div className="animate-fade-in-up mt-16 my-2">
+        <div className="animate-fade-in-up mt-10 md:mt-16 my-2">
           <span className="text-lg md:text-xl text-muted-foreground font-medium">
             Hello, I&apos;m
           </span>
@@ -63,26 +64,26 @@ const Hero = () => {
 
         {/* Social Links */}
         <div className="flex gap-6 justify-center items-center mb-8 animate-fade-in-up animation-delay-800">
-          <a
-            href="https://github.com"
+          <Link
+            href="https://github.com/hammadhz"
             target="_blank"
             rel="noopener noreferrer"
             className="p-3 rounded-full bg-card hover:bg-accent transition-colors duration-200"
             aria-label="GitHub"
           >
             <Github className="h-6 w-6" />
-          </a>
-          <a
-            href="https://linkedin.com"
+          </Link>
+          <Link
+            href="https://linkedin.com/in/hammadhz"
             target="_blank"
             rel="noopener noreferrer"
             className="p-3 rounded-full bg-card hover:bg-accent transition-colors duration-200"
             aria-label="LinkedIn"
           >
             <Linkedin className="h-6 w-6" />
-          </a>
+          </Link>
           <a
-            href="mailto:your-email@example.com"
+            href="mailto:hammadazmrauf@gmail.com"
             className="p-3 rounded-full bg-card hover:bg-accent transition-colors duration-200"
             aria-label="Email"
           >

@@ -1,5 +1,6 @@
 "use client";
 import { Github, Linkedin, Mail, ExternalLink, Heart } from "lucide-react";
+import Link from "next/link";
 
 const Footer = () => (
   <footer className="relative mt-20 border-t border-border/50 bg-gradient-to-t from-background via-background/95 to-background/90 backdrop-blur-sm">
@@ -13,7 +14,7 @@ const Footer = () => (
             and user-friendly web experiences.
           </p>
           <div className="flex gap-3">
-            <a
+            <Link
               href="https://github.com/hammadhz"
               target="_blank"
               rel="noopener noreferrer"
@@ -21,8 +22,8 @@ const Footer = () => (
               aria-label="GitHub"
             >
               <Github className="h-4 w-4" />
-            </a>
-            <a
+            </Link>
+            <Link
               href="https://linkedin.com/in/hammadhz"
               target="_blank"
               rel="noopener noreferrer"
@@ -30,14 +31,14 @@ const Footer = () => (
               aria-label="LinkedIn"
             >
               <Linkedin className="h-4 w-4" />
-            </a>
-            <a
+            </Link>
+            <Link
               href="mailto:hammad@example.com"
               className="p-2 rounded-lg bg-card hover:bg-accent hover:scale-105 transition-all duration-200 border border-border/50"
               aria-label="Email"
             >
               <Mail className="h-4 w-4" />
-            </a>
+            </Link>
           </div>
         </div>
 
@@ -103,16 +104,13 @@ const Footer = () => (
 
       {/* Bottom Section */}
       <div className="pt-6 border-t border-border/30">
-        <div className="flex flex-col md:flex-row justify-between items-center gap-4">
+        <div className="flex flex-row justify-center items-center gap-4">
           <p className="text-sm text-muted-foreground flex items-center gap-1">
             © {new Date().getFullYear()} Hammad Azam. Built with
             <Heart className="h-3 w-3 text-red-500 mx-1" />
             using Next.js & shadcn/ui
           </p>
-          <div className="flex items-center gap-4 text-xs text-muted-foreground">
-            <span>Made with modern web technologies</span>
-            <ExternalLink className="h-3 w-3" />
-          </div>
+         
         </div>
       </div>
     </div>
