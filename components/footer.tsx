@@ -3,7 +3,7 @@ import { Github, Linkedin, Mail, ExternalLink, Heart } from "lucide-react";
 import Link from "next/link";
 
 const Footer = () => (
-  <footer className="relative mt-20 border-t border-border/50 bg-gradient-to-t from-background via-background/95 to-background/90 backdrop-blur-sm">
+  <footer className="relative mt-20 border-t border-border/50 bg-gradient-to-t from-background via-background/95 to-background/90 backdrop-blur-sm w-full">
     <div className="max-w-7xl mx-auto px-4 py-12">
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
         {/* Brand Section */}
